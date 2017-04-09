@@ -1,0 +1,27 @@
+# Site Settings
+title:              JIIT
+tagline:             
+description:        Blog
+baseurl:            #"/JIITBlog"
+url:                #"https://amsmu.github.io"
+github:
+  url:               #"https://amsmu.github.io/JIITBlog"
+author:
+  name:              "Amarjeet Singh Mudhar"
+  email:             "contact@jiit.ac.in"
+navigation:
+- title: About
+  url: /about
+- title: Writing
+  url: /writing
+- title: Contact
+  url: /contact
+
+paginate:            5
+disqus:              #"your-disqus"
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+gems:                [jekyll-paginate]
